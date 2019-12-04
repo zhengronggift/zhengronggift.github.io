@@ -120,9 +120,6 @@ video {
           <a class="nav-link js-scroll-trigger" href="#experience">Introduction</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#education">Motivation</a>
-        </li>
-        <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#skills">Specification</a>
         </li>
         <li class="nav-item">
@@ -132,13 +129,16 @@ video {
           <a class="nav-link js-scroll-trigger" href="#ai">Artificial Intelligence</a>
         </li>
         <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#education">Programming</a>
+        </li>
+        <li class="nav-item">
           <a class="nav-link js-scroll-trigger" href="#result">Results</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#gallery">Gallery/Videos</a>
+          <a class="nav-link js-scroll-trigger" href="#awards">Thank You</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#awards">Thank You</a>
+          <a class="nav-link js-scroll-trigger" href="#gallery">Gallery</a>
         </li>
       </ul>
     </div>
@@ -233,7 +233,7 @@ video {
 
         </div>
 
-<ul class="list-inline dev-icons">
+<ul class="list-inline dev-icons" id="team">
 <h4>Team Members:</h4><br>
 <li class="list-inline-item">
         <img class="rounded-circle" src="img/rodrigo.jpg" width="200px" alt="">   
@@ -300,25 +300,12 @@ video {
 
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
-            <p>The Automated Rescue Transportation Yunit (ARTY), is a human sized device, is designed to be used as a quick field response transportation for helpless victims in distress, and in need of an auxiliary rescue. ARTY is also designed to be portable and ideal for most swimming related activities. When dispatched, ARTY is steered towards the victim from a radio-controlled transmitter or using ARTY’s smart U.I. ARTY’s built in Artificial Intelligence (A.I.) provides live feed of its environment and can help detecting and alerting the user of a potential drowning in the vicinity. Once ARTY approaches the victim, an alarm is sounded alerting the victim to the presence of the rescue device which they can then grab ahold and be carried to safety.</p>
+            <p>The Automated Rescue Transportation Yunit (ARTY), is a human sized device, is designed to be used as a quick field response transportation for helpless victims in distress, and in need of an auxiliary rescue. </p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/BaP1SbjrDMg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
         </div>
       </div>
 
-    </section>
-
-    <hr class="m-0">
-
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="education">
-      <div class="w-100">
-        <h2 class="mb-5">Motivation</h2>
-
-        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-          <div class="resume-content">
-            <p>Drowning typically occurs silently and assistance is limited[1][2]. If drowning is noticed, rescuers have up to one minute to save the victim from drowning[2]. Since 2005, CDC has reported 12,734 unintentional deaths, between the ages of 1 to 18[1]. Drowning ranks fifth among the leading causes of unintentional injury death in the United States and is the second most common cause of accidental death among children and teenagers[1]. </p>
-	    <img src="img/data_kid.png" alt="" width="400px">  
-        </div>
-      </div>
     </section>
 
     <hr class="m-0">
@@ -351,43 +338,100 @@ video {
         <p>The A.I. model is based on the YOLO object detection model. Evaluation model was setup to be hosted on Raspberry Pi and takes in a live video stream from the built-in camera.
 </p>
 <p>The stream is passed through the evaluation model frame by frame and boundary boxes are drawn around objects that are accurately detected.</p>
-<p>It looks at the whole image at test time so its predictions are informed by global context in the image.</p>
-<p>It also makes predictions with a single network evaluation unlike systems like R-CNN which require thousands for a single image. This makes it extreamely fast, more than 1000x faster than R-CNN and 100x faster than Fast R-CNN.</p>
 <img src="img/ai.jpg" alt="" width="400px">  
 <img src="img/ai_data.PNG" alt="" width="400px">  
         
       </div>
     </section>
 
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="education">
+      <div class="w-100">
+        <h2 class="mb-5">Programming</h2>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+	    <img src="proj_image/program.png" alt="" width="400px">  
+        </div>
+      </div>
+    </section>
+
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="result">
       <div class="w-100">
         <h2 class="mb-5">Results</h2>
-        <p>ARTY went through two main testing phases. The first phase consisted of testing the battery capsules by submerging them in an aquarium to test for water infiltration. The second test involved the full prototype and was tested in a nearby pool. During the pool testing phase, ARTY achieved 2.5 ft/s. Adding weight did not affect ARTY’s performance. ARTY was also able to support our goal weight of 100lb.
-</p><img src="img/humidity.png" alt="" width="400px">  
+        <p>ARTY went through two main testing phases. The first phase consisted of testing the battery capsules by submerging them in an aquarium to test for water infiltration. The second test involved the full prototype and was tested in a nearby pool. During the pool testing phase, ARTY achieved 2.5 ft/s.
+</p><iframe width="560" height="315" src="https://www.youtube.com/embed/z6dH3oaBVw8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
         
+      </div>
+    </section>
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="awards">
+      <div class="w-100">
+        <h2 class="mb-5">Special Thanks</h2>
+<li class="list-inline-item">
+        <img class="rounded-circle" src="img/kalva.jpeg" width="200px" alt="">  
+	<h5>Hari Kalva</h5>  
+	<h5>ED2 Instructor</h5> 
+        <div class="social-icons">
+          <a href="https://www.linkedin.com/in/harikalva">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+	</div>
+</li>  
+<li class="list-inline-item"> 
+	<img class="rounded-circle" src="img/alhalabi.jpeg" width="150px" alt="">       
+	<h5>Bassem Alhalabi</h5>  
+	<h5>ED1 Instructor</h5>  
+	<div class="social-icons">
+          <a href="https://www.linkedin.com/in/bassem-alhalabi-6945327">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+        </div>
+</li>
+<li class="list-inline-item"> 
+	<img class="rounded-circle" src="img/lance.jpeg" width="150px" alt="">       
+	<h5>Lance Blair</h5>  
+	<div class="social-icons">
+          <a href="https://www.linkedin.com/in/lance-blair-b6356784">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+        </div>
+</li>
+<li class="list-inline-item"> 
+	<img class="rounded-circle" src="img/perry.jpeg" width="150px" alt="">       
+	<h5>Perry Weinthal</h5>  
+	<div class="social-icons">
+          <a href="https://www.linkedin.com/in/perry-weinthal-547681108">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+        </div>
+</li>
+<li class="list-inline-item"> 
+	<img class="rounded-circle" src="img/alex.jpeg" width="150px" alt="">       
+	<h5>Alex Roscoe</h5>  
+	<div class="social-icons">
+          <a href="https://www.linkedin.com/in/alexroscoe">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+        </div>
+</li>
+<li class="list-inline-item"> 
+	<img class="rounded-circle" src="img/an.jpeg" width="150px" alt="">       
+	<h5>Edgar An</h5>  
+	<div class="social-icons">
+          <a href="https://www.linkedin.com/in/edgar-an-620a4b7b/">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+        </div>
+</li>
       </div>
     </section>
 
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="gallery">
       <div class="w-100">
-        <h2 class="mb-5">Gallery/Videos</h2>
-
-<br>
-<h3 class="mb-5"><span class="text-primary">Videos:</span></h3>
-  <div class="row">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/iZz7QA4I418" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/D0LEOSGshbk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Qb8JUecufgY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/z6dH3oaBVw8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/DXoSFDHFSwA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/wOBsIKQ_HUA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/hBcmngoeuFg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/0YcQyll9_4I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/9OOGPOIMGAU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-   </div>
-
-<br>
-<h3 class="mb-5"><span class="text-primary">Gallery</span></h3>
+        <h2 class="mb-5">Gallery</h2>
 <div class="row">
 
     <div class="col-md-4">
@@ -729,71 +773,6 @@ video {
 
       </div>
     </section>
-
-    <hr class="m-0">
-
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="awards">
-      <div class="w-100">
-        <h2 class="mb-5">Special Thanks</h2>
-<li class="list-inline-item">
-        <img class="rounded-circle" src="img/kalva.jpeg" width="200px" alt="">  
-	<h5>Hari Kalva</h5>  
-	<h5>ED2 Instructor</h5> 
-        <div class="social-icons">
-          <a href="https://www.linkedin.com/in/harikalva">
-            <i class="fab fa-linkedin-in"></i>
-          </a>
-	</div>
-</li>  
-<li class="list-inline-item"> 
-	<img class="rounded-circle" src="img/alhalabi.jpeg" width="150px" alt="">       
-	<h5>Bassem Alhalabi</h5>  
-	<h5>ED1 Instructor</h5>  
-	<div class="social-icons">
-          <a href="https://www.linkedin.com/in/bassem-alhalabi-6945327">
-            <i class="fab fa-linkedin-in"></i>
-          </a>
-        </div>
-</li>
-<li class="list-inline-item"> 
-	<img class="rounded-circle" src="img/lance.jpeg" width="150px" alt="">       
-	<h5>Lance Blair</h5>  
-	<div class="social-icons">
-          <a href="https://www.linkedin.com/in/lance-blair-b6356784">
-            <i class="fab fa-linkedin-in"></i>
-          </a>
-        </div>
-</li>
-<li class="list-inline-item"> 
-	<img class="rounded-circle" src="img/perry.jpeg" width="150px" alt="">       
-	<h5>Perry Weinthal</h5>  
-	<div class="social-icons">
-          <a href="https://www.linkedin.com/in/perry-weinthal-547681108">
-            <i class="fab fa-linkedin-in"></i>
-          </a>
-        </div>
-</li>
-<li class="list-inline-item"> 
-	<img class="rounded-circle" src="img/alex.jpeg" width="150px" alt="">       
-	<h5>Alex Roscoe</h5>  
-	<div class="social-icons">
-          <a href="https://www.linkedin.com/in/alexroscoe">
-            <i class="fab fa-linkedin-in"></i>
-          </a>
-        </div>
-</li>
-<li class="list-inline-item"> 
-	<img class="rounded-circle" src="img/an.jpeg" width="150px" alt="">       
-	<h5>Edgar An</h5>  
-	<div class="social-icons">
-          <a href="https://www.linkedin.com/in/edgar-an-620a4b7b/">
-            <i class="fab fa-linkedin-in"></i>
-          </a>
-        </div>
-</li>
-      </div>
-    </section>
-
   </div>
 
   <!-- Bootstrap core JavaScript -->
